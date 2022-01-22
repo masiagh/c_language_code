@@ -1,0 +1,47 @@
+#include <iostream>
+
+int main (){
+int x,y,*xptr,*yptr;
+
+
+std ::cout << "\n please enter the value of x=";
+std:: cin>>x;#include <iostream>
+
+int main (){
+int x,y,*xptr,*yptr;
+
+
+std ::cout << "\n please enter the value of x=";
+std:: cin>>x;
+
+std:: cout <<"\n please enter the value of y=";
+std:: cin>>y;
+
+xptr=&x;
+yptr=&y;
+
+if (*xptr> *yptr)
+{ 
+  std:: cout<<"\n x is greter than y ";
+}
+else {
+  std:: cout << "\n y is greter than x";
+
+}
+}
+
+std:: cout <<"\n please enter the value of y=";
+std:: cin>>y;
+
+xptr=&x;
+yptr=&y;
+
+if (*xptr> *yptr)
+{ 
+  std:: cout<<"\n x is greter than y ";
+}
+else {
+  std:: cout << "\n y is greter than x";
+
+}
+}
